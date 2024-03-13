@@ -51,9 +51,9 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 4rem auto; 
     font-family: shabnam_bold;
     font-size: 1.1rem;
+    color: var(--blackColor);
     width: 120px;
     height: 2.5rem;
     outline: none;
@@ -75,7 +75,6 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 4rem auto; 
     font-family: shabnam_bold;
     font-size: 1.1rem;
     width: 120px;
@@ -93,3 +92,8 @@ body{
 }
 /* <<<< button_green >>>> */
 
+/* <<<< Swiper >>>> */
+.mySwiper .swiper-pagination-bullet{
+    font-size: 3rem;
+    color: #209E2E;
+}

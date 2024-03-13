@@ -1,0 +1,32 @@
+.banner{
+    display: block;
+    width: 100%;
+    padding: 2rem 0 ;
+    background-color: #f3faf4;
+}
+.banner_content{
+    display: block;
+    margin: 5rem auto;
+}
+.banner_content_title{
+    display: block;
+    font-family: shabnam_bold;
+    font-size: 3rem;
+    line-height: 1.6;
+}
+.banner_content_paraph{
+    font-size: 1rem;
+    color: var(--textColor);
+}
+.banner_content_buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 20px;
+}
+.banner_content_btnLink{
+
+}
+.banner_img{
+    width: 100%;
+}
