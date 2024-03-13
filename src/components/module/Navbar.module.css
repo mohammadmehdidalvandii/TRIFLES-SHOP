@@ -26,6 +26,7 @@
     text-decoration: none;
     font-family: shabnam_bold;
     font-size: 1.1rem;
+    color: var(--blackColor);
     transition: all 0.4s ease-out
 }
 .navbar_item_link:hover{
@@ -94,14 +95,93 @@
     align-items: center;
     justify-content: center;    
     position: absolute;
-    top: -1rem;
+    top: -0.7rem;
     left: -0.7rem;
     font-size: 1rem;
     background-color: var(--greenColor2);
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem 0.3rem;
     border-radius: 50%;
     
 }
-
-
 /* <<<< navbar section >>>> */
+
+/* <<<< navbarRes section >>>> */
+.navbarRes{
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+}
+.navbarRes_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+.navbarRes_link_logo{
+    display: block;
+}
+.navbarRes_link_img{
+    display: block;
+}
+.navbarRes_menu{
+    display: block;
+}
+.navbarRes_menu_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--greenColor1);
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.navbarRes_menu_icon:hover{
+    background-color: var(--greenColor2);
+}
+
+.navbarRes_items_menu{
+    display: block;
+    padding: 1rem;
+    list-style: none;
+    position: absolute;
+    top: 4rem;
+background-color: var(--whiteColor);
+    width: 100%;
+    z-index: 999;
+}
+
+.navbarRes_item_menu{
+    margin-bottom: 1rem;
+}
+.navbarRes_item_link{
+    text-decoration: none;
+    font-family: shabnam_bold;
+    font-size: 1.1rem;
+    color: var(--blackColor);
+    transition: all 0.4s ease-out;
+}
+.navbarRes_item_link:hover{
+    color: var(--greenColor2);
+}
+.navbarRes_item_link_active{
+    text-decoration: none;
+    color: var(--greenColor2);
+}
+
+.navbarRes_link{
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+}
+.navbarRes_link_icon{
+    color: var(--greenColor2);
+    font-size: 1.3rem;
+}
+.navbarRes_link_number{
+    font-size: 1.2rem;
+}
+/* <<<< navbarRes section >>>> */
