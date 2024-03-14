@@ -1,0 +1,30 @@
+.buttonToTop,
+.buttonVisible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: var(--greenColor2);
+    font-size: 1.4rem;
+    color: var(--whiteColor) !important;
+    box-shadow: 0 0 5px 3px var(--greenColor2);
+    opacity: 0;
+    transition-duration: 200ms;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.buttonToTop:hover{
+    background-color: var(--greenColor1);
+    color: var(--greenColor2) !important;
+}
+
+.buttonVisible{
+    opacity: 1 !important;
+}

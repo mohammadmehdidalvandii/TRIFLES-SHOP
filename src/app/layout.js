@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css'
 import AosInit from "@/utils/Aos";
+import ScrollToTop from "@/utils/ScrollToTop";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body dir="rtl" className={inter.className}>
         <AosInit/>
         {children}
+        <ScrollToTop/>
         </body>
     </html>
   );
