@@ -11,7 +11,26 @@ import { useEffect, useState } from 'react';
 function Navbar() {
     const [menuActive , setMenuActive] = useState('/')
     const [showMenu , setShowMenu] = useState(false)
+    const [fixTop ,setFixTop] = useState(false)
    const pathName = usePathname()
+
+    // handler FixTop Navbar
+    useEffect(()=>{
+
+        const fixNavbarToTop = ()=>{
+            const currentScroll = window.scrollY
+            if(currentScroll > 110){
+                setFixTop(true)
+            }else{
+                setFixTop(false)
+            }
+        }
+        
+            window.addEventListener('scroll' ,fixNavbarToTop)
+    
+            return ()=>  window.removeEventListener('scroll' ,fixNavbarToTop)
+    },[])
+    // handler FixTop Navbar
 
     // Start handler MenuActive Navbar
         useEffect(()=>{
@@ -28,7 +47,7 @@ function Navbar() {
  // Start handler showMenu navbarRes
   return (
     <>
-    <section className={`${style.navBar} ${`d-none d-lg-block`}`}>
+    <section className={`${fixTop? style.navbar_fixed : style.navBar} ${`d-none d-lg-block`}`}>
         <div className="containers">
             <div className={style.navbar_wrapper}>
                 <Link href='/' className={style.navbar_link_logo}>
@@ -72,7 +91,7 @@ function Navbar() {
         </div>
     </section>
 
-    <section className={`${style.navbarRes} ${`d-block d-lg-none`}`}>
+    <section className={`${fixTop? style.navbar_fixed:style.navbarRes} ${`d-block d-lg-none`}`}>
         <div className="containers">
             <div className={style.navbarRes_wrapper}>
                 <Link href='/' className={style.navbarRes_link_logo}>
