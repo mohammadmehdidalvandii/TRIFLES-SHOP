@@ -1,0 +1,50 @@
+.about{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: var(--bgColor);
+}
+
+.about_content{
+    display: block;
+    width: 100%;
+    margin-top: 3rem ;
+}
+.about_content_title{
+    font-family: shabnam_bold;
+    font-size: 2rem;
+}
+.about_content_desc{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--textColor);
+}
+.about_items{
+    display: block;
+    margin-top: 1rem;
+}
+.about_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.about_item_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--greenColor1);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--greenColor2);
+}
+.about_item_text{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.about_img{
+    width: 100%;
+}

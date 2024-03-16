@@ -20,6 +20,12 @@ body{
 }
 /* <<<< * >>>> */
 
+/* <<<< Ul  >>>> */
+ul{
+    list-style: none;
+}
+/* <<<< Ul  >>>> */
+
 /* <<<< container >>>> */
 .containers{
     max-width: 80rem;
@@ -33,6 +39,7 @@ body{
 
 /* <<<< root : variable >>>> */
 :root{
+    --bgColor: #F3FAF4;
     --whiteColor: #ffffff;
     --blackColor: #333333;
     --greenColor1: #EAFEF1;
