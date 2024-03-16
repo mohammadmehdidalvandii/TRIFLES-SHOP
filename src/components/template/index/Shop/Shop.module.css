@@ -1,0 +1,12 @@
+.shop{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: var(--bgColor);
+}
+
+.shop_link{
+    width: 150px;
+    margin: 0 auto;
+}
