@@ -5,6 +5,7 @@
     border: 3px dotted var(--greenColor2);
     border-radius: 0.5rem;
     background-color: var(--greenColor1);
+    margin-bottom: 1rem;
 }
 .commentCard_img_score{
     display: block;
@@ -16,6 +17,7 @@
 .commentCard_img{
     width: 90px; 
     border-radius: 50%;
+    z-index: 55;
 }
 .commentCard_score{
     display: flex;

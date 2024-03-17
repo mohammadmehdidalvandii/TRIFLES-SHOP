@@ -1,0 +1,9 @@
+.feedBack{
+    display: block;
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.comment_sild .swiper{
+    overflow-y: unset !important;
+}
