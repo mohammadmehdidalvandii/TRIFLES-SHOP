@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import style from './Accordion.module.css';
-import { FaPlus } from "react-icons/fa";
+import { FaPlus , FaMinus } from "react-icons/fa";
 
 function Accordion() {
     const [showAccordion , setShowAccordion] = useState(false);
@@ -13,9 +13,16 @@ function Accordion() {
   return (
     <div className={style.accordion}>
     <div className={style.accordion_title_icon} onClick={handlerShowAccordion}>
-        <span className={style.accordion_icon}>
+        {showAccordion ?(
+               <span className={style.accordion_icon}>
+               <FaMinus />
+           </span>
+        ):(
+            <span className={style.accordion_icon}>
             <FaPlus/>
         </span>
+        )}
+     
         <h6 className={style.accordion_title}> چرا ما از این شرکت محصولاتی را خریداری می کنیم؟ </h6>
     </div>
     {showAccordion && (
