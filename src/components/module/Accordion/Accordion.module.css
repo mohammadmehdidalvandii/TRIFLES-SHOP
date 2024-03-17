@@ -1,0 +1,31 @@
+
+.accordion{
+    display: block;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.accordion_title_icon{
+    display: flex;
+    align-items: center;
+}
+.accordion_icon{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--greenColor2);
+}
+.accordion_title{
+    font-family: shabnam_bold;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.accordion_desc{
+    display: block;
+    margin: 0.5rem 0;
+    color: var(--textColor);
+}
+.accordion_desc_ani{
+    display: block;
+    margin: 0.5rem 0;
+    color: var(--textColor);
+    transition: all 1.5s linear;
+}
