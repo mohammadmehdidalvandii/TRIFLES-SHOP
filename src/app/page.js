@@ -1,5 +1,6 @@
 import About from "@/components/template/index/About/About";
 import Banner from "@/components/template/index/Banner/Banner";
+import Brief from "@/components/template/index/Brief/Brief";
 import Country from "@/components/template/index/Country/Country";
 import Cultivation from "@/components/template/index/Cultivation/Cultivation";
 import Shop from "@/components/template/index/Shop/Shop";
@@ -14,6 +15,7 @@ export default function Home() {
    <Country/>
    <Shop/>
    <Cultivation/>
+   <Brief/>
    </>
   );
 }

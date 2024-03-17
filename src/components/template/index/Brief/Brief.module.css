@@ -1,0 +1,19 @@
+.brief{
+    display: block;
+    width: 100%;
+    margin: 4rem 0;
+}
+.brief_content{
+    display: block;
+    text-align: center;
+}
+.brief_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.brief_img{
+    width: 100%;
+    margin-top: 2rem;
+}
