@@ -1,5 +1,6 @@
 import About from "@/components/template/index/About/About";
 import Banner from "@/components/template/index/Banner/Banner";
+import Blog from "@/components/template/index/Blog/Blog";
 import Brief from "@/components/template/index/Brief/Brief";
 import Country from "@/components/template/index/Country/Country";
 import Cultivation from "@/components/template/index/Cultivation/Cultivation";
@@ -22,6 +23,7 @@ export default function Home() {
    <Sectors/>
    <Question/>
    <FeedBack/>
+   <Blog/>
    </>
   );
 }
