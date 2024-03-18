@@ -1,0 +1,33 @@
+.newsletter{
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background: url('/images/newsletter.png');
+}
+
+.newsletter_input_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.newsletter_input{
+    width: 550px;
+    height: 3.5rem;
+    outline: none;
+    border: 3px dotted var(--greenColor2);
+    border-radius: 1rem;
+    padding-right: 1rem;
+    font-family: shabnam_bold;
+    font-weight: 700;
+    color: var(--greenColor2);
+}
+.Newsletter_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 3.5rem;
+}

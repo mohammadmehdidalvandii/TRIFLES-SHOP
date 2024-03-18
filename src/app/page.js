@@ -5,6 +5,7 @@ import Brief from "@/components/template/index/Brief/Brief";
 import Country from "@/components/template/index/Country/Country";
 import Cultivation from "@/components/template/index/Cultivation/Cultivation";
 import FeedBack from "@/components/template/index/FeedBack/FeedBack";
+import Newsletter from "@/components/template/index/Newsletter/Newsletter";
 import Question from "@/components/template/index/Question/Question";
 import Sectors from "@/components/template/index/Sectors/Sectors";
 import Shop from "@/components/template/index/Shop/Shop";
@@ -24,6 +25,7 @@ export default function Home() {
    <Question/>
    <FeedBack/>
    <Blog/>
+   <Newsletter/>
    </>
   );
 }
