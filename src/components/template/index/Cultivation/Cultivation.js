@@ -8,7 +8,7 @@ function Cultivation() {
   return (
     <section className={style.cultivation}>
         <div className="containers">
-        <div className="row">
+        <div className="row" data-aos="fade-up">
             <div className="col-12">
                 <div className={style.cultivation_title}>
                     <span className={style.cultivation_title_text}>زراعت</span>
@@ -16,7 +16,7 @@ function Cultivation() {
                 </div>
             </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-5" data-aos="fade-up">
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div className={style.cultivation_item}>
                     <div className={style.cultivation_item_content}>

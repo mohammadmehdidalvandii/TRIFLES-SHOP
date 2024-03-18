@@ -6,7 +6,7 @@ function Sectors() {
   return (
    <section className={style.sectors}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className={style.sectors_content}>
                         <span className={style.sectors_text}>مناطق ماهی و گاو</span>

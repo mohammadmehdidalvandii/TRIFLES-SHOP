@@ -6,7 +6,7 @@ function Newsletter() {
   return (
     <section className={style.newsletter}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         title='عضویت در خبرنامه'
@@ -14,7 +14,7 @@ function Newsletter() {
                     />
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className={style.newsletter_input_btn}>
                     <input type="text"  className={style.newsletter_input}/>
                     <button className={`${style.Newsletter_btn} ${'button_black'}`}>مشترک شدن</button>

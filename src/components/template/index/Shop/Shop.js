@@ -10,7 +10,7 @@ function Shop() {
   return (
     <section className={style.shop}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         text='به فروشگاه ما مراجعه کنید'
@@ -19,7 +19,7 @@ function Shop() {
                     />
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <ProductCard/>
                 </div>
@@ -33,7 +33,7 @@ function Shop() {
                     <ProductCard/>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className="col-12">
                     <Link href='/' className={`${style.shop_link} ${"button_black"}`}>مشاهده بیشتر</Link>
                 </div>

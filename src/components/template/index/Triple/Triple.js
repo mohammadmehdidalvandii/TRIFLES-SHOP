@@ -7,7 +7,7 @@ function Triple() {
   return (
     <section className={style.triple}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         text='مناطق تحت پوشش'
@@ -16,7 +16,7 @@ function Triple() {
                     />
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div className={style.triple_item}>
                         <div className={style.triple_item_image}>

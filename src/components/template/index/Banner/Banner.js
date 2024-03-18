@@ -25,7 +25,7 @@ function Banner() {
         className="mySwiper home-slider"
       >
         <SwiperSlide>
-              <div className="row" data-aos="fade-up">
+              <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className={style.banner_content}>
                         <h1 className={style.banner_content_title}>
@@ -46,7 +46,7 @@ function Banner() {
             </div>
         </SwiperSlide>
         <SwiperSlide> 
-              <div className="row" data-aos="fade-up">
+              <div className="row" >
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className={style.banner_content}>
                         <h1 className={style.banner_content_title}>
@@ -67,7 +67,7 @@ function Banner() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-              <div className="row" data-aos="fade-up">
+              <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className={style.banner_content}>
                         <h1 className={style.banner_content_title}>

@@ -5,7 +5,10 @@ import 'aos/dist/aos.css'
 
 function AosInit() {
     useEffect(()=>{ 
-        Aos.init();
+        Aos.init({
+          delay: 200,
+          duration: 500
+        });
     },[]);
 
   return null;

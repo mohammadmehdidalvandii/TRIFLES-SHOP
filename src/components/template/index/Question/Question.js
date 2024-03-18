@@ -10,7 +10,7 @@ function Question() {
   return (
     <section className={style.question}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         text='سوالات متداول'
@@ -19,12 +19,12 @@ function Question() {
                     />
                 </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4" data-aos="fade-up">
                 <div className="col-12">
                     <Link href='/' className={`${style.question_link} ${'button_black'}`}>شما بپرسید ؟</Link>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className="col-12">
                     <Accordion/>
                     <Accordion/>

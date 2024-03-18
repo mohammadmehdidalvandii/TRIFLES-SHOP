@@ -7,7 +7,7 @@ function About() {
   return (
     <section className={style.about}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         text='درباره ما'
@@ -16,7 +16,7 @@ function About() {
                     />
                 </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4" data-aos="fade-up">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <div className={style.about_content}>
                         <h5 className={style.about_content_title}>محصولات ارگانیک ما سالم هستند؟</h5>

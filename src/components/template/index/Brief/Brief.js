@@ -7,7 +7,7 @@ function Brief() {
   return (
     <section className={style.brief}>
         <div className="containers">
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-12">
                     <TitleCenter
                         text='خلاصه'
@@ -16,7 +16,7 @@ function Brief() {
                     />
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up">
                 <div className="col-12">
                     <div className={style.brief_content}>
                         <Link href='/' className={`${style.brief_link} ${'button_white'}`}>زراعت</Link>

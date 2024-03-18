@@ -16,12 +16,12 @@ function FeedBack() {
   return (
     <section className={style.feedBack}>
       <div className="containers">
-        <div className="row">
+        <div className="row"  data-aos="fade-up">
             <div className="col-12">
           <TitleCenter text="مشتریان" title="مشتریان ما چه می گویند" />
             </div>
         </div>
-           <div className="row mt-5">
+           <div className="row mt-5" data-aos="fade-up">
                 <div className="col-12">
                 <Swiper
              slidesPerView={3}
