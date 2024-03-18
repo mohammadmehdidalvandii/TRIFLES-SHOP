@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import AosInit from "@/utils/Aos";
 import ScrollToTop from "@/utils/ScrollToTop";
 import Navbar from "@/components/module/Navbar/Navbar";
+import Footer from "@/components/module/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <AosInit/>
         {children}
+        <Footer/>
         <ScrollToTop/>
         </body>
     </html>
