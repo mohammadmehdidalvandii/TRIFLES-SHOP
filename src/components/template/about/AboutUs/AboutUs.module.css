@@ -1,0 +1,25 @@
+.aboutUs{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.aboutUs_img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.aboutUs_content{
+    display: block;
+    width: 100%;    
+}
+.aboutUs_content_title{
+    font-family: shabnam_bold;
+    font-size: 2.5rem;
+    color: var(--blackColor);
+}
+.aboutUs_content_desc{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--textColor);
+}
