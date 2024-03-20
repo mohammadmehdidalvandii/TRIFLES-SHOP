@@ -24,7 +24,7 @@ function Products() {
                     </div>
                 </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4" data-aos='fade-up'>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <ProductCard/>
                 </div>
