@@ -1,4 +1,5 @@
 import PageHeader from '@/components/module/PageHeader/PageHeader'
+import Summary from '@/components/template/services/Summary/Summary'
 import React from 'react'
 
 function page() {
@@ -7,6 +8,7 @@ function page() {
             <PageHeader
                 title='خدمات'
             />
+            <Summary/>
      </>
   )
 }

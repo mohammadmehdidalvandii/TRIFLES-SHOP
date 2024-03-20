@@ -1,0 +1,35 @@
+.summary{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.summary_img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.summary_content{
+    display: block;
+    width: 100%;
+}
+.summary_content_text{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--greenColor2);
+}
+.summary_content_title{
+    display: block;
+    margin: 1rem 0;
+    font-family: shabnam_bold;
+    font-size: 2rem;
+    line-height: 1.4;
+    color: var(--blackColor);
+}
+.summary_content_desc{
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: var(--textColor);
+}
+.summary_content_btn{
+    
+}
