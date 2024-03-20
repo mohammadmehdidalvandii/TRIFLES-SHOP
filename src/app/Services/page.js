@@ -1,4 +1,5 @@
 import PageHeader from '@/components/module/PageHeader/PageHeader'
+import Region from '@/components/template/services/Region/Region'
 import Summary from '@/components/template/services/Summary/Summary'
 import React from 'react'
 
@@ -9,6 +10,7 @@ function page() {
                 title='خدمات'
             />
             <Summary/>
+            <Region/>
      </>
   )
 }

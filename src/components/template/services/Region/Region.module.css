@@ -1,0 +1,52 @@
+.region{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.region_img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.region_content{
+    display: block;
+    margin-top: 2rem;
+}
+.region_content_text{
+    font-size: 0.9rem;
+    color: var(--greenColor2);
+}
+.region_content_title{
+    display: block;
+    margin: 1rem 0; 
+    font-family: shabnam_bold;
+    font-size: 2rem;
+    color: var(--blackColor);
+}
+.region_content_desc{
+    font-size: 1rem;
+    color: var(--textColor);
+}
+.region_items{
+    display: block;
+    margin-top: 1rem;
+}
+.region_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.region_item_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--greenColor1);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    color: var(--greenColor2);
+    margin-left: 0.5rem;
+}
+.region_item_text{
+    
+}
