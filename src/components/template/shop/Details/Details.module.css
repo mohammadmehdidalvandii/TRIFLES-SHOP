@@ -1,0 +1,99 @@
+.details{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.details_image{
+    width: 100%;
+    object-fit: cover;
+    background-color: var(--greenColor1);
+}
+.Details_content{
+    display: block;
+    margin: 3rem 0;
+}
+.Details_content_name{
+    display: block;
+    font-family: shabnam_bold;
+    font-size: 2rem;
+    color: var(--blackColor);
+}
+.Details_content_price{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--greenColor2);
+}
+.Details_content_score_cm{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Details_content_score{
+    display: flex;
+    align-items: center;
+}
+.Details_content_score_icon{
+    font-size: 1.1rem;
+    color: var(--yellowColor);
+}
+.Details_content_cm{
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 1.2rem;
+    transition: all 0.4s ease-out;
+}
+.Details_content_cm:hover{
+    color: var(--greenColor2);
+}
+.Details_content_desc{
+    display: block;
+    margin-block: 1rem ;
+    font-size: 1rem;
+    color: var(--textColor);
+}
+.Details_content_unit{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--greenColor1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    color: var(--greenColor2);
+}
+.Details_content_count{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 3rem;
+    background-color: var(--greenColor1);
+    margin-top: 2rem;
+    overflow: hidden;
+    border-radius: 0.4rem;
+
+}
+.Details_content_count_btn{
+    width: 50px;
+    height: 3rem;
+    outline: none;
+    border: none;
+    color: var(--whiteColor);
+    background-color: var(--greenColor2);
+    transition: all 0.4s ease-out;
+}
+.Details_content_count_btn:hover{
+    background-color: var(--blackColor)
+}
+.Details_content_count_number{
+    width: 50px;
+    text-align: center;
+    color: var(--greenColor2);
+}
+
+.Details_content_addBasket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}   

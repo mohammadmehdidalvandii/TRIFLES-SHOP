@@ -1,4 +1,5 @@
 import PageHeader from '@/components/module/PageHeader/PageHeader';
+import Details from '@/components/template/shop/Details/Details';
 import React from 'react';;
 
 function ProductDetails() {
@@ -7,6 +8,7 @@ function ProductDetails() {
     <PageHeader
       title='جزئیات محصول'
     />
+    <Details/>
    </>
   )
 }
