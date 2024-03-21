@@ -7,7 +7,7 @@ function Newspapers() {
   return (
     <section className={style.newspapers}>
         <div className="containers">
-          <div className="row">
+          <div className="row" data-aos='fade-up'>
               <div className="col-lg-4 col-md-6 col-sm-12">
                   <NewsCard/>
               </div>
