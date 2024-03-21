@@ -1,0 +1,31 @@
+.tabs{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.tabs_buttons{
+    display: flex;
+    align-items: center;    
+    gap: 5px;
+    border-bottom: 1px dotted var(--grayColor);
+}
+.tabs_btn{
+    width: 120px;
+    height: 3rem;
+    outline: none;
+    border: 1px dotted var(--grayColor);
+    background-color: unset;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--blackColor);
+}
+.tabs_btn_active{
+    width: 120px;
+    height: 3rem;
+    outline: none;
+    border: 1px dotted var(--grayColor);
+    background-color: var(--greenColor2);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+}
