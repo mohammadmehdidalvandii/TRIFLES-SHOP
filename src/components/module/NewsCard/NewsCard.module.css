@@ -1,0 +1,43 @@
+.newsCard{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.newsCard_img{
+    width: 100%;
+}
+.newsCard_content{
+    display: block;
+    padding: 0 1rem;
+    color: var(--whiteColor);
+    position: absolute;
+    bottom: 2rem;
+    z-index: 55;
+}
+.newsCard_content_category_date{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.newsCard_content_title{
+    display: block;
+    margin-block: 1rem;
+    font-family: shabnam_bold;
+    font-size: 1.6rem;
+}
+.newsCard_content_desc{
+    font-size: 1rem;
+}
+.newsCard_content_linkMore{
+
+}
+.newsCard_bg{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.4);
+    bottom: 0;
+}
