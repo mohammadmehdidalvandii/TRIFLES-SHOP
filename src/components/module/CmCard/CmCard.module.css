@@ -1,0 +1,23 @@
+.commentCard{
+    display: block;
+    width: 100%;
+    background-color: var(--bgColor);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.commentCard_userName{
+    font-family: shabnam_bold;
+    font-size: 1.4rem;
+    color: var(--blackColor);
+}
+.commentCard_date{
+    display: block;
+    margin-block: 0.7rem  ;
+    color: var(--greenColor2);
+}
+.commentCard_desc{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.7;
+}

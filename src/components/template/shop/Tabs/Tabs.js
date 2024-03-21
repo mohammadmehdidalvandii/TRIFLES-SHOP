@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import style from './Tabs.module.css';
 import Describe from '../Describe/Describe';
 import Info from '../info/info';
+import Comments from '../Comments/Comments';
 
 function Tabs() {
     const [tabMenu , setTabMenu] = useState('describe');
@@ -25,7 +26,7 @@ function Tabs() {
                 <div className="col-12">
                     {tabMenu === 'describe' && (<Describe/>)}
                     {tabMenu === 'info' && (<Info/>)}
-                    {tabMenu === 'comments' && (<h1> section comments </h1>)}
+                    {tabMenu === 'comments' && (<Comments/>)}
                 </div>
             </div>
         </div>
