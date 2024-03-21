@@ -1,0 +1,27 @@
+.info{
+    display: block;
+    width: 100%;
+}
+.info_items{
+    display: block;
+    width: 100%;
+    border: 1px dotted var(--grayColor);
+    padding: 10px;
+}
+.info_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: var(--greenColor1);
+    padding: 5px;
+}
+.info_item_title{
+    font-family: shabnam_bold;
+    font-size: 1.2rem;
+    color: var(--blackColor);
+}
+.info_item_text{
+    display: block;
+    margin-right: 5rem;
+    color: var(--textColor);
+}

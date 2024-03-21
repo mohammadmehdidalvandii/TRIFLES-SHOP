@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import style from './Tabs.module.css';
 import Describe from '../Describe/Describe';
+import Info from '../info/info';
 
 function Tabs() {
     const [tabMenu , setTabMenu] = useState('describe');
@@ -23,7 +24,7 @@ function Tabs() {
             <div className="row mt-5">
                 <div className="col-12">
                     {tabMenu === 'describe' && (<Describe/>)}
-                    {tabMenu === 'info' && (<h1> section info </h1>)}
+                    {tabMenu === 'info' && (<Info/>)}
                     {tabMenu === 'comments' && (<h1> section comments </h1>)}
                 </div>
             </div>
