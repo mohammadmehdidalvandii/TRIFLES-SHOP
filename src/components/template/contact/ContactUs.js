@@ -35,7 +35,7 @@ function ContactUs() {
                 </div>
             </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-5" data-aos='fade-up'>
             <div className="col-12">
                 <TitleCenter
                     title='برای هر سوالی پیام بفرستید'
