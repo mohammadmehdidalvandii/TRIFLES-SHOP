@@ -1,0 +1,10 @@
+.describe{
+    display: block;
+    width: 100%
+}
+.describe_paraph{
+    display: block;
+    font-size: 1rem;
+    color: var(--textColor);
+    line-height: 1.6;
+}

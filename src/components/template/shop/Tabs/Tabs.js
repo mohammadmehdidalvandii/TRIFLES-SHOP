@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import style from './Tabs.module.css';
+import Describe from '../Describe/Describe';
 
 function Tabs() {
     const [tabMenu , setTabMenu] = useState('describe');
@@ -21,7 +22,7 @@ function Tabs() {
             </div>
             <div className="row mt-5">
                 <div className="col-12">
-                    {tabMenu === 'describe' && (<h1> section describe </h1>)}
+                    {tabMenu === 'describe' && (<Describe/>)}
                     {tabMenu === 'info' && (<h1> section info </h1>)}
                     {tabMenu === 'comments' && (<h1> section comments </h1>)}
                 </div>
