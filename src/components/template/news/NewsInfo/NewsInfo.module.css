@@ -1,0 +1,36 @@
+.newsInfo{
+    display: block;
+    width: 100%;
+}
+.newsInfo_img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.newsInfo_date_creator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: var(--greenColor2);
+}
+.newsInfo_date{
+
+}
+.newsInfo_creator{
+
+}
+.newsInfo_title{
+    display: block;
+    font-family: shabnam_bold;
+    font-size: 2rem;
+    margin-block: 1rem;
+    color: var(--blackColor);
+}
+.newsInfo_shortDesc{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--textColor);
+}
