@@ -1,0 +1,45 @@
+.basketCard{
+    display: block;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.basketCard_wrapper{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 0 15px 10px #efefef;
+    border-radius: 0.6rem;
+}
+
+.basketCard_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px dotted var(--greenColor2);
+}
+.basketCard_item_img{
+    width: 130px;
+}
+.basketCard_item_name{
+font-family: shabnam_bold;
+font-size: 1.4rem;
+font-weight: bold;
+}
+.basketCard_item_price{
+    font-size: 1.3rem;
+    color: var(--greenColor2);
+}
+.basketCard_item_uint{
+    font-size: 1rem;
+}
+.basketCard_item_delete{
+    font-size: 2rem;
+    color: var(--blackColor);
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.basketCard_item_delete:hover{
+    color: var(--redColor);
+}
