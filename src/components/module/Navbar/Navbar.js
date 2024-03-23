@@ -80,7 +80,7 @@ function Navbar() {
                             <MdOutlineSearch/>
                         </span>
                     </div>
-                    <Link href='/' className={style.navbar_link}>
+                    <Link href='/Basket' className={style.navbar_link}>
                         <span className={style.navbar_link_icon}>
                         <MdOutlineShoppingCart />
                         </span>
@@ -113,7 +113,7 @@ function Navbar() {
                 {showMenu && (
                     <ul className={style.navbarRes_items_menu}>
                         <li className={style.navbarRes_item_menu}>
-                        <Link href='/' className={style.navbarRes_link}>
+                        <Link href='/Basket' className={style.navbarRes_link}>
                         <span className={style.navbarRes_link_icon}>
                             سبد خرید
                         </span>
