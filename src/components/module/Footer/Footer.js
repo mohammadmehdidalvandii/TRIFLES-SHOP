@@ -49,7 +49,7 @@ function Footer() {
                             <Link href='/' className={style.footer_item_link}>برنامه تحویل</Link>
                         </li>
                         <li className={style.footer_item}>
-                            <Link href='/' className={style.footer_item_link}>تماس بگیرید</Link>
+                            <Link href='/Contact' className={style.footer_item_link}>تماس بگیرید</Link>
                         </li>
                         <li className={style.footer_item}>
                             <Link href='/' className={style.footer_item_link}>پرس و جو آنلاین</Link>
@@ -63,7 +63,7 @@ function Footer() {
                     <h4 className={style.footer_title}>پشتیبانی ما</h4>
                     <ul className={style.footer_items}>
                         <li className={style.footer_item}>
-                            <Link href='/' className={style.footer_item_link}>محصولات</Link>
+                            <Link href='/Shop' className={style.footer_item_link}>محصولات</Link>
                         </li>
                         <li className={style.footer_item}>
                             <Link href='/Questions' className={style.footer_item_link}>سوالات متداول</Link>
