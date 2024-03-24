@@ -66,7 +66,7 @@ function Footer() {
                             <Link href='/' className={style.footer_item_link}>محصولات</Link>
                         </li>
                         <li className={style.footer_item}>
-                            <Link href='/' className={style.footer_item_link}>سوالات متداول</Link>
+                            <Link href='/Questions' className={style.footer_item_link}>سوالات متداول</Link>
                         </li>
                         <li className={style.footer_item}>
                             <Link href='/' className={style.footer_item_link}>ملاقات کنید</Link>
