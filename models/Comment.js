@@ -27,3 +27,7 @@ const schema = new mongoose.Schema({
         ref:"Product",
     },
 })
+
+const model = mongoose.model.Comment || mongoose.model("Comment" ,schema);
+
+export default model
