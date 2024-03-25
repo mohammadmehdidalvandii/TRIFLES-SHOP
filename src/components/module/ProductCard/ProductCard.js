@@ -19,7 +19,7 @@ function ProductCard() {
                             <span className={style.productCard_score_icon}><FaStar/></span>
                         </div>
                         <div className={style.productCard_links}>
-                            <Link href='/' className={`${style.productCard_link} ${"button_white"}`}>
+                            <Link href={`/Shop/ProductDetails`}className={`${style.productCard_link} ${"button_white"}`}>
                                 <span className={style.productCard_link_icon}>
                                     <MdSearch/>
                                 </span>
