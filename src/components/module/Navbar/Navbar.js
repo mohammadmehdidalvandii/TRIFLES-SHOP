@@ -72,6 +72,9 @@ function Navbar() {
                     <li className={style.navbar_item}>
                         <Link href='/Contact' className={`${style.navbar_item_link} ${menuActive === '/Contact' ? `${style.navbar_item_link_active}`:``}`}>تماس با ما</Link>
                     </li>
+                    <li className={style.navbar_item}>
+                        <Link href='/Login-Register' className={`${style.navbar_item_link} ${menuActive === '/Login-Register' ? `${style.navbar_item_link_active}`:``}`}>ورود / ثبت نام</Link>
+                    </li>
                 </ul>
                 <div className={style.navbar_items}>
                     <div className={style.navbar_search}>
@@ -119,6 +122,11 @@ function Navbar() {
                         </span>
                         <span className={style.navbarRes_link_number}>0</span>
                     </Link>
+                        </li>
+                        <li className={style.navbarRes_item_menu}>
+                            <Link href='/Login-Register' className={`${style.navbarRes_item_link} ${menuActive === '/Login-Register' ? `${style.navbarRes_item_link_active}`:``}`}>
+                                ورود / ثبت نام
+                            </Link>
                         </li>
                         <li className={style.navbarRes_item_menu}>
                             <Link href='/' className={`${style.navbarRes_item_link} ${menuActive === '/' ? `${style.navbarRes_item_link_active}`:``}`}>
