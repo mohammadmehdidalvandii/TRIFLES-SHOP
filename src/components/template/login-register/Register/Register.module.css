@@ -1,0 +1,15 @@
+.register{
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 2px #efefef;
+    border-radius: 1rem;
+}
+.register_title{
+    display: block;
+    text-align: center;
+    font-family: shabnam_bold;
+    font-size: 2.2rem;
+    color: var(--blackColor);
+}
