@@ -1,3 +1,4 @@
+'use client'
 import PageHeader from '@/components/module/PageHeader/PageHeader';
 import Login from '@/components/template/login-register/Login/Login';
 import Register from '@/components/template/login-register/Register/Register';

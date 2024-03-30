@@ -58,5 +58,6 @@ export{
     verifyPassword,
     generateAccessToken,
     verifyAccessToken,
-    generateRefreshToken
+    generateRefreshToken,
+    authUser,
 }
