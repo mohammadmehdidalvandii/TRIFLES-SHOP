@@ -1,0 +1,60 @@
+.sidebar{
+    display: block;
+    width: 100%;
+    background-color: var(--greenColor2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.sidebar_info_user{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px dotted var(--whiteColor);
+}
+.sidebar_info_img{
+    width: 90px;
+    border-radius: 50%;
+}
+.sidebar_info_username{
+    display: block;
+    margin-top: 1rem;
+    font-family: shabnam_bold;
+    font-size: 1.4rem;
+    color: var(--whiteColor);
+}
+.sidebar_items{
+    display: block;
+    margin-top: 2rem;
+}
+.sidebar_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--whiteColor);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+}
+.sidebar_item:hover{
+    background-color: var(--greenColor1);
+    color: var(--blackColor);
+}
+.sidebar_item_active{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--whiteColor);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: var(--greenColor1);
+    color: var(--blackColor);
+}
+.sidebar_item_icon{
+    font-size: 1.3rem;
+}
+.sidebar_item_text{
+    margin-right: 0.4rem;
+    font-size: 1.1rem;
+}
