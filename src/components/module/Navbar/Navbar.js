@@ -75,6 +75,9 @@ function Navbar() {
                     <li className={style.navbar_item}>
                         <Link href='/Login-Register' className={`${style.navbar_item_link} ${menuActive === '/Login-Register' ? `${style.navbar_item_link_active}`:``}`}>ورود / ثبت نام</Link>
                     </li>
+                    <li className={style.navbar_item}>
+                        <Link href='/P-user' className={`${style.navbar_item_link} ${menuActive === '/Login-Register' ? `${style.navbar_item_link_active}`:``}`}>حساب کاربری</Link>
+                    </li>
                 </ul>
                 <div className={style.navbar_items}>
                     <div className={style.navbar_search}>
