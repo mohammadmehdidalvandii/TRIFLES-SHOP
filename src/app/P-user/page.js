@@ -6,6 +6,7 @@ import { FaHeart } from "react-icons/fa";
 import { MdSend , MdExitToApp  } from "react-icons/md";
 import Dashboard from '@/components/template/p-user/Dashboard/Dashboard';
 import Wishlist from '@/components/template/p-user/Wishlist/Wishlist';
+import Send from '@/components/template/p-user/Send/Send';
 
 function page() {
     const [menu , setMenu ] = useState('dashboard')
@@ -62,7 +63,7 @@ function page() {
                 <div className="col-lg-9 col-md-9 col-sm-12">
                     {menu ==="dashboard" && (<Dashboard/>)}
                     {menu ==="wishlist" && (<Wishlist/>)}
-                    {menu ==="send" && (<h1>send</h1>)}
+                    {menu ==="send" && (<Send/>)}
                 </div>
             </div>
         </div>

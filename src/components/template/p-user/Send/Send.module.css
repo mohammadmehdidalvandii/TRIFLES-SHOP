@@ -1,0 +1,38 @@
+.send{
+    display: block;
+    width: 100%;
+}
+.send_item{
+    display: block;
+    text-align: center;
+    background-color: var(--greenColor1);
+    margin-bottom: 1rem;
+}
+.send_item_img{
+}
+.send_item_nam{
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.send_item_status{
+    display: block;
+    font-size: 1.2rem;
+    color: var(--greenColor2);
+}
+.send_item_btn{
+    display: block;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: var(--greenColor2);
+    color: var(--whiteColor);
+    transition: all 0.4s ease-out;
+}
+.send_item_btn:hover{
+    background-color: var(--blackColor);
+}
