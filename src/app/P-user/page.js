@@ -5,6 +5,7 @@ import { TiArrowForward } from "react-icons/ti";
 import { FaHeart } from "react-icons/fa";
 import { MdSend , MdExitToApp  } from "react-icons/md";
 import Dashboard from '@/components/template/p-user/Dashboard/Dashboard';
+import Wishlist from '@/components/template/p-user/Wishlist/Wishlist';
 
 function page() {
     const [menu , setMenu ] = useState('dashboard')
@@ -60,7 +61,7 @@ function page() {
                 </div>
                 <div className="col-lg-9 col-md-9 col-sm-12">
                     {menu ==="dashboard" && (<Dashboard/>)}
-                    {menu ==="wishlist" && (<h1>wishlist</h1>)}
+                    {menu ==="wishlist" && (<Wishlist/>)}
                     {menu ==="send" && (<h1>send</h1>)}
                 </div>
             </div>
